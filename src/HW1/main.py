@@ -14,7 +14,7 @@ def segment_fish(img):
     Returns:
         mask (np.ndarray): fish mask. should contain bool values
     """
-    # YOUR CODE HERE
+    
     img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     img_hsv = cv2.cvtColor(img_rgb, cv2.COLOR_RGB2HSV)
 
